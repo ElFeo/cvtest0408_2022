@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <h1>My contact details:</h1>
+  <p>1210 36th ave, San Francisco, CA 94122</p>
+  <p>415-555-1234</p>
+  <p>andrzejja@gmail.com</p>
+  <hr>
+  <form action="mailto:andrzejja@gmail.com" method="post" enctype="text/plain">
+    <label for="">Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label for="">Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label for="">Your Message:</label>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" value="Save"><br><br>
+    <input type="range" id="volume" name="volume" min="0" max="11">
+    <label for="volume">Volume</label><br><br>
+    
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+  </form>
+</body>
+
+</html>
